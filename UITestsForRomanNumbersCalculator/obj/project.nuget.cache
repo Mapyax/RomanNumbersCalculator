@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2D74qyWITucFYTye3IRzdikmS13Cj+X6TjAWmJ7GGVqMqbl2PL9jpLztD883kgStveExKH0vRgLYcTEtZvvJ3A==",
+  "dgSpecHash": "XpO8b1vTPg4E06GojzijoxiaKJG+Kclj9k+iD1bq95ijkowIHG1ZviXNTHeNYNzYpiE6TDzCc/w8K+6WSY85mA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\n-pro\\source\\repos\\RomanNumbersCalculator\\UITestsForRomanNumbersCalculator\\UITestsForRomanNumbersCalculator.csproj",
+  "projectFilePath": "I:\\RomanNumbersCalculator\\UITestsForRomanNumbersCalculator\\UITestsForRomanNumbersCalculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\n-pro\\.nuget\\packages\\avalonia\\0.10.18\\avalonia.0.10.18.nupkg.sha512",
     "C:\\Users\\n-pro\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2020091801\\avalonia.angle.windows.natives.2.1.0.2020091801.nupkg.sha512",
@@ -133,13 +133,13 @@
     "C:\\Users\\n-pro\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\n-pro\\.nuget\\packages\\tmds.dbus\\0.9.0\\tmds.dbus.0.9.0.nupkg.sha512",
     "C:\\Users\\n-pro\\.nuget\\packages\\xamlnamereferencegenerator\\1.3.4\\xamlnamereferencegenerator.1.3.4.nupkg.sha512",
-    "C:\\Users\\n-pro\\.nuget\\packages\\xunit\\2.4.1\\xunit.2.4.1.nupkg.sha512",
+    "C:\\Users\\n-pro\\.nuget\\packages\\xunit\\2.4.2\\xunit.2.4.2.nupkg.sha512",
     "C:\\Users\\n-pro\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
-    "C:\\Users\\n-pro\\.nuget\\packages\\xunit.analyzers\\0.10.0\\xunit.analyzers.0.10.0.nupkg.sha512",
-    "C:\\Users\\n-pro\\.nuget\\packages\\xunit.assert\\2.4.1\\xunit.assert.2.4.1.nupkg.sha512",
-    "C:\\Users\\n-pro\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
-    "C:\\Users\\n-pro\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
-    "C:\\Users\\n-pro\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
+    "C:\\Users\\n-pro\\.nuget\\packages\\xunit.analyzers\\1.0.0\\xunit.analyzers.1.0.0.nupkg.sha512",
+    "C:\\Users\\n-pro\\.nuget\\packages\\xunit.assert\\2.4.2\\xunit.assert.2.4.2.nupkg.sha512",
+    "C:\\Users\\n-pro\\.nuget\\packages\\xunit.core\\2.4.2\\xunit.core.2.4.2.nupkg.sha512",
+    "C:\\Users\\n-pro\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
+    "C:\\Users\\n-pro\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
     "C:\\Users\\n-pro\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": []

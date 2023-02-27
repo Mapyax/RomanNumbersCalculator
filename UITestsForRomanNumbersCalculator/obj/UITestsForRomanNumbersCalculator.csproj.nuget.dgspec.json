@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\n-pro\\source\\repos\\RomanNumbersCalculator\\UITestsForRomanNumbersCalculator\\UITestsForRomanNumbersCalculator.csproj": {}
+    "I:\\RomanNumbersCalculator\\UITestsForRomanNumbersCalculator\\UITestsForRomanNumbersCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\n-pro\\source\\repos\\RomanNumbersCalculator\\RomanNumbersCalculator\\RomanNumbersCalculator.csproj": {
+    "I:\\RomanNumbersCalculator\\RomanNumbersCalculator\\RomanNumbersCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\n-pro\\source\\repos\\RomanNumbersCalculator\\RomanNumbersCalculator\\RomanNumbersCalculator.csproj",
+        "projectUniqueName": "I:\\RomanNumbersCalculator\\RomanNumbersCalculator\\RomanNumbersCalculator.csproj",
         "projectName": "RomanNumbersCalculator",
-        "projectPath": "C:\\Users\\n-pro\\source\\repos\\RomanNumbersCalculator\\RomanNumbersCalculator\\RomanNumbersCalculator.csproj",
+        "projectPath": "I:\\RomanNumbersCalculator\\RomanNumbersCalculator\\RomanNumbersCalculator.csproj",
         "packagesPath": "C:\\Users\\n-pro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\n-pro\\source\\repos\\RomanNumbersCalculator\\RomanNumbersCalculator\\obj\\",
+        "outputPath": "I:\\RomanNumbersCalculator\\RomanNumbersCalculator\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\n-pro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +67,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -80,25 +77,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\n-pro\\source\\repos\\RomanNumbersCalculator\\UITestsForRomanNumbersCalculator\\UITestsForRomanNumbersCalculator.csproj": {
+    "I:\\RomanNumbersCalculator\\UITestsForRomanNumbersCalculator\\UITestsForRomanNumbersCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\n-pro\\source\\repos\\RomanNumbersCalculator\\UITestsForRomanNumbersCalculator\\UITestsForRomanNumbersCalculator.csproj",
+        "projectUniqueName": "I:\\RomanNumbersCalculator\\UITestsForRomanNumbersCalculator\\UITestsForRomanNumbersCalculator.csproj",
         "projectName": "UITestsForRomanNumbersCalculator",
-        "projectPath": "C:\\Users\\n-pro\\source\\repos\\RomanNumbersCalculator\\UITestsForRomanNumbersCalculator\\UITestsForRomanNumbersCalculator.csproj",
+        "projectPath": "I:\\RomanNumbersCalculator\\UITestsForRomanNumbersCalculator\\UITestsForRomanNumbersCalculator.csproj",
         "packagesPath": "C:\\Users\\n-pro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\n-pro\\source\\repos\\RomanNumbersCalculator\\UITestsForRomanNumbersCalculator\\obj\\",
+        "outputPath": "I:\\RomanNumbersCalculator\\UITestsForRomanNumbersCalculator\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\n-pro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,8 +105,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\n-pro\\source\\repos\\RomanNumbersCalculator\\RomanNumbersCalculator\\RomanNumbersCalculator.csproj": {
-                "projectPath": "C:\\Users\\n-pro\\source\\repos\\RomanNumbersCalculator\\RomanNumbersCalculator\\RomanNumbersCalculator.csproj"
+              "I:\\RomanNumbersCalculator\\RomanNumbersCalculator\\RomanNumbersCalculator.csproj": {
+                "projectPath": "I:\\RomanNumbersCalculator\\RomanNumbersCalculator\\RomanNumbersCalculator.csproj"
               }
             }
           }
@@ -144,7 +137,7 @@
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.1, )"
+              "version": "[2.4.2, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -159,7 +152,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -168,7 +162,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

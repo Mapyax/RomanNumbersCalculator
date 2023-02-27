@@ -10,42 +10,83 @@ namespace UITestsForRomanNumbersCalculator
         {
             var app = AvaloniaApp.GetApp();
             var mainWindow = AvaloniaApp.GetMainWindow();
-            String t = "I";
-            String sum = "II";
+            string t;
+            string testI = "I";
+            string testV = "V";
+            string testX = "X";
+            string testL = "L";
+            string testC = "C";
+            string testD = "D";
+            string testM = "M";
+            string test1 = "XX";
+            string test2 = "V";
 
-            await Task.Delay(100);
-
-            var buttonI = mainWindow.GetVisualDescendants().OfType<Button>().First(b => b.Name == "I");
+            var text = mainWindow.GetVisualDescendants().OfType<TextBox>().First();
             var buttonClear = mainWindow.GetVisualDescendants().OfType<Button>().First(b => b.Name == "Clear");
-            var buttonPlus = mainWindow.GetVisualDescendants().OfType<Button>().First(b => b.Name == "Plus");
-            var buttonEqual = mainWindow.GetVisualDescendants().OfType<Button>().First(b => b.Name == "Equal");
-            var textbox = mainWindow.GetVisualDescendants().OfType<TextBox>().First();
+            var buttonCalc = mainWindow.GetVisualDescendants().OfType<Button>().First(b => b.Name == "Calc");
+            var buttonAdd = mainWindow.GetVisualDescendants().OfType<Button>().First(b => b.Name == "Add");
+            var buttonSub = mainWindow.GetVisualDescendants().OfType<Button>().First(b => b.Name == "Sub");
+            var buttonMul = mainWindow.GetVisualDescendants().OfType<Button>().First(b => b.Name == "Mul");
+            var buttonDiv = mainWindow.GetVisualDescendants().OfType<Button>().First(b => b.Name == "Div");
+            var buttonI = mainWindow.GetVisualDescendants().OfType<Button>().First(b => b.Name == "I");
+            var buttonV = mainWindow.GetVisualDescendants().OfType<Button>().First(b => b.Name == "V");
+            var buttonX = mainWindow.GetVisualDescendants().OfType<Button>().First(b => b.Name == "X");
+            var buttonL = mainWindow.GetVisualDescendants().OfType<Button>().First(b => b.Name == "L");
+            var buttonC = mainWindow.GetVisualDescendants().OfType<Button>().First(b => b.Name == "C");
+            var buttonD = mainWindow.GetVisualDescendants().OfType<Button>().First(b => b.Name == "D");
+            var buttonM = mainWindow.GetVisualDescendants().OfType<Button>().First(b => b.Name == "M");
 
             buttonI.Command.Execute(buttonI.CommandParameter);
-
-            await Task.Delay(50);
-
-            var text = textbox.Text;
-
-            Assert.True(text.Equals(t));
-
-            buttonPlus.Command.Execute(buttonPlus.CommandParameter);
-            buttonI.Command.Execute(buttonI.CommandParameter);
-            buttonEqual.Command.Execute(buttonEqual.CommandParameter);
-
-            await Task.Delay(50);
-
-            text = textbox.Text;
-
-            Assert.True(text.Equals(sum));
-
+            t = text.Text;
+            Assert.True(t.Equals(testI));
             buttonClear.Command.Execute(buttonClear.CommandParameter);
 
-            await Task.Delay(50);
+            buttonV.Command.Execute(buttonV.CommandParameter);
+            t = text.Text;
+            Assert.True(t.Equals(testV));
+            buttonClear.Command.Execute(buttonClear.CommandParameter);
 
-            text = textbox.Text;
+            buttonX.Command.Execute(buttonX.CommandParameter);
+            t = text.Text;
+            Assert.True(t.Equals(testX));
+            buttonClear.Command.Execute(buttonClear.CommandParameter);
 
-            Assert.True(text.Equals(""));
+            buttonL.Command.Execute(buttonL.CommandParameter);
+            t = text.Text;
+            Assert.True(t.Equals(testL));
+            buttonClear.Command.Execute(buttonClear.CommandParameter);
+
+            buttonC.Command.Execute(buttonC.CommandParameter);
+            t = text.Text;
+            Assert.True(t.Equals(testC));
+            buttonClear.Command.Execute(buttonClear.CommandParameter);
+
+            buttonD.Command.Execute(buttonD.CommandParameter);
+            t = text.Text;
+            Assert.True(t.Equals(testD));
+            buttonClear.Command.Execute(buttonClear.CommandParameter);
+
+            buttonM.Command.Execute(buttonM.CommandParameter);
+            t = text.Text;
+            Assert.True(t.Equals(testM));
+            buttonClear.Command.Execute(buttonClear.CommandParameter);
+
+            buttonX.Command.Execute(buttonX.CommandParameter);
+            buttonAdd.Command.Execute(buttonAdd.CommandParameter);
+            buttonX.Command.Execute(buttonX.CommandParameter);
+            buttonCalc.Command.Execute(buttonCalc.CommandParameter);
+            t = text.Text;
+            Assert.True(t.Equals(test1));
+            buttonClear.Command.Execute(buttonClear.CommandParameter);
+
+            buttonX.Command.Execute(buttonX.CommandParameter);
+            buttonDiv.Command.Execute(buttonDiv.CommandParameter);
+            buttonI.Command.Execute(buttonI.CommandParameter);
+            buttonI.Command.Execute(buttonI.CommandParameter);
+            buttonCalc.Command.Execute(buttonCalc.CommandParameter);
+            t = text.Text;
+            Assert.True(t.Equals(test2));
+            buttonClear.Command.Execute(buttonClear.CommandParameter);
         }
     }
 }
